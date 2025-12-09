@@ -90,7 +90,6 @@ window.recalculateStats = function(forcedFormula = null) {
         const totalWordsTyped = d.grossWords5; 
 
         // 4. Net Words calculation (Direct deduction: Gross - Mistakes)
-        // No 5% allowance, No 10x penalty as requested
         netWords = totalWordsTyped - totalSSCMistakes;
         
         // 5. Net Speed
