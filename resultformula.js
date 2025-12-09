@@ -9,7 +9,7 @@ window.FORMULA_DESC = {
     'AIIMS': "Typing Master/KVS Pattern (AIIMS):\n1 Word = 5 Keystrokes\nNet Words = Gross Words - (Total Wrong Words * 5)\nNet Speed = Net Words / Time\nAccuracy = (Total Right Words - Total Wrong Words) * 100 / Total Right Words",
     'STENO': "Steno Formula (Transcription Based):\n1 Word = Space Button (Actual Word Count)\nSpeed = (Gross Words (5ch) - Total Errors) / Time\nAccuracy = (Total File Words - Total Errors) * 100 / Total File Words",
     'RRB': "RRB NTPC Formula:\n1 Word = 5 Keystrokes\nAllowance = 5% of Total Typed Words\nPenalty = 10 Words per Mistake (above 5%)\nNet Speed = (Total Typed Words - Penalty) / Time",
-    'SSC': "SSC Formula (Simple Net Speed):\nFull Mistake: Spelling, Omission, Substitution\nHalf Mistake: Capitalization, Punctuation, Spacing\nTotal Error = Full + (Half / 2)\nNet Speed = (Gross Words - Total Error) / Time\n(No 5% Allowance, No 10x Penalty)"
+    'SSC': "SSC Formula (Simple Net Speed):\nFull Mistake: Spelling, Omission, Substitution\nHalf Mistake: Capitalization, Punctuation, Spacing\nTotal Error = Full + (Half / 2)\nNet Speed = (Gross Words - Total Error) / Time"
 };
 
 // --- Helper Function to Analyze SSC Mistakes ---
